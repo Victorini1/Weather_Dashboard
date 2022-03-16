@@ -1,0 +1,11 @@
+#submitbutton{
+    margin-top: 25px;
+}
+
+div label{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
