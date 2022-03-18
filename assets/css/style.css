@@ -9,3 +9,8 @@ div label{
     display: flex;
     justify-content: center;
 }
+
+#deck .col-8{
+    display: flex;
+    flex-direction: column;
+}
