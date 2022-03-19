@@ -5,15 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Weather Dashboard</title>
+    <link rel="shortcut icon" type="image/jpg" href="./assets/images/weather.png"/>
 </head>
 <body>
     <header>
-        <div class="jumbotron">
-            <h1 class="display-3 text-center">Hello, world!</h1>
-            <p class="lead text-center">This is a simple hero unit, a simple jumbotron-style component for
-                            calling extra attention to featured content or information.</p>
+        <div id="jumbo" class="jumbotron">
+            <h1 class="display-3 text-center">We<span class="colorpop">ath</span>er</h1>
+            <p class="lead text-center"></p>
           </div>          
     </header>
     <main>
@@ -22,61 +26,22 @@
               <div class="col-4">
                 <form>
                     <div class="form-group">
-                      <label for="formGroupExampleInput">Enter a City Here</label>
-                      <input type="text" class="form-control" id="search" placeholder="Dallas">
+                      <label class="searchtext" for="formGroupExampleInput">Enter a City Here</label>
+                      <input type="text" class="form-control" id="search" placeholder="Give it a try">
                     </div>
                     <div>
                         <button type="submit" id="submitbutton" class="btn btn-primary" >Let's Go!</button>
                     </div>
               </div>
-              <div class="col-8">
-                <div id="big-card-h" class="card">
-                    <!-- <div  class="card-header">
-                      Featured
-                    </div>
-                    <div class="card-body">
-                      <h4 class="card-title">Special title treatment</h4>
-                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    </div> -->
-                  </div>
-                </div>
+              <div id="big-card-h" class="col-8">
             </div>
         </div>
         <div id="deck" class="container-fluid">
             <div class="row">
-              <div class="col-4">
-                <form>
-                    <div class="form-group">
-                      <label for="formGroupExampleInput">fake one!
-                      </label>
-                      <input type="form" class="form-control" placeholder="Dallas">
-                    </div>
-              </div>
+              <div id="history" class="col-4"></div>
               <div class="col-8">
-                <div id="days" class="card-group">
-                    <!-- <div class="card">
-                      <div class="card-body">
-                        <h4 class="card-title">Card title</h4>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <div class="card-body">
-                        <h4 class="card-title">Card title</h4>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <div class="card-body">
-                        <h4 class="card-title">Card title</h4>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                      </div>
-                    </div>
-                  </div> -->
-                  <!-- <img src="http://openweathermap.org/img/wn@2px.png" alt="weather icon"> -->
-        </div>
-     
-    </main>
+              <div id="days" class="card-group"></div>
+     </main>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
     <script src="./assets/js/script.js"></script>

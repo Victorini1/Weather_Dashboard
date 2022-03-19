@@ -1,3 +1,7 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 #submitbutton{
     margin-top: 25px;
 }
@@ -13,4 +17,60 @@ div label{
 #deck .col-8{
     display: flex;
     flex-direction: column;
+}
+
+#past {
+    margin-top: 25px;
+    width: 100%;
+}
+
+#jumbo {
+    border-style: solid;
+    border-top: 50px;
+    border-color: black;
+    padding-bottom: 0px;
+    background-color: #f24c62;
+}
+
+#jumbo h1{
+    font-family: 'Bungee Inline', cursive;
+    color: #005070;
+}
+header h1 .colorpop{
+    font-family: 'Bungee Inline', cursive;
+    color: #49c6dd;
+}
+.card-deck{
+    display: flex;
+}
+
+#smallcard{
+    display: flex;
+    flex-direction: row;
+    flex:1 0 auto;
+    background-color: #49c6dd;
+    border: solid #f24c62 10px;
+    
+  }
+
+.card-header{
+      font-size: 38px;
+      background-color: whitesmoke;
+    
+  }
+
+#bigcard{
+    margin-bottom: 25px;
+    background-color: #49c6dd;
+  }
+
+body{
+      background-color: #005070;
+  }
+
+#past {
+    background-color: #f24c62;
+}
+.searchtext{
+    color: #49c6dd;
 }
