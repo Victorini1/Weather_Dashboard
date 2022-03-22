@@ -8,10 +8,10 @@ The API for forecasting only allows the use of lattitude and longitude navigatio
 
 #### Collaborators
 
-Devin Wulf
-Eugene Ahn
-Kelly Jeffries
-Vidal Tan
+- Devin Wulf
+- Eugene Ahn
+- Kelly Jeffries
+- Vidal Tan
 
 ### Screenshot of Final Page
 
